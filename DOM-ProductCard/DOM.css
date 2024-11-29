@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(252, 252, 252);
+}
+
+.container{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 45px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+    width: 250px;
+    height: 350px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.card:hover{
+    transform: scale(1.02);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+h3{
+    margin: 0px;
+    font-size: 20px;
+    color: rgb(31, 3, 172);
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.prop{
+    font-weight: bold;
+}
+
+p{
+    margin: -10px;
+    font-size: 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    color: rgb(21, 20, 20);
+
+}
+
+.card {  
+    transition: background-color 0.3s ease; /* Suaviza el cambio de color */  
+    padding: 15px; /* Añadir algo de espacio interior para mejor apariencia */  
+    margin: 10px; /* Margen entre tarjetas */  
+    border: 1px solid #ccc; /* Agregar un borde para mejor visualización */  
+    width: 200px; /* Ancho fijo para cada tarjeta */  
+    position: relative; /* Para controlar la posición de la tarjeta */  
+    border-radius: 5px; /* Esquinas redondeadas */  
+}  
+
+.oferta:hover {  
+    background-color: #e0e0e0; /* Cambia a un color gris claro al pasar el mouse */  
+}  

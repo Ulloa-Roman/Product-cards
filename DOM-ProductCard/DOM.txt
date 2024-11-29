@@ -1,0 +1,1 @@
+Crear una product card y poder lograr resaltar de una manera especial el precio de los productos en oferta.
